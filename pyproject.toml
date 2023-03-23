@@ -1,0 +1,13 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "tikz"
+version = "0.1"
+authors = [
+  { name="Laurent Belcour", email="laurent.belcour@gmail.com" },
+]
+description = "Tikz figure generation"
+readme = "README.md"
+requires-python = ">=3.7"

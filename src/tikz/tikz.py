@@ -44,7 +44,7 @@
 import numpy as np
 
 
-class tikz:
+class figure:
     def __init__(self, out, standalone=False):
         self.indent = ''
         self.out = out
